@@ -1,0 +1,226 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url('picture/anhnen2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            padding: 0
+        }    
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            margin-top: -100px;
+        }
+        .dautrang{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .tabinlogo{
+            width: 40%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .tentruong{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .logo{
+            width: 50px;
+            height: 50px;
+        }
+        .space{
+            width: 35%;
+            height: 50px;
+        }
+        .tabbagach{
+            width: 5%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+        }
+        .bagach{
+            width: 30px;
+            height: 30px;
+            border-radius: 10%;
+            position: relative;
+        }
+        .tabtrangchu:hover .trangchu{
+            color: yellow;
+            font-size: 20px;
+        }
+        .tabnophoso:hover .nophoso{
+            color: yellow;
+            font-size: 20px;
+        }
+        .tabxemhoso:hover .xemhoso{
+            color: yellow;
+            font-size: 20px;
+        }
+        .tabthongke:hover .thongke{
+            color: yellow;
+            font-size: 20px;
+        }
+        .ab1{
+            width: 130%;
+            height: 35px;
+            background: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .ab2{
+            width: 130%;
+            height: 35px;
+            background: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #fontchu{
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .tabmore{
+            width: 100%;
+            width: 60px;
+            display: none;
+            position: absolute;
+        }
+        .tabbagach:hover .tabmore{
+            display: block;
+        }
+        .ab1:hover{
+            background: grey;
+        }
+        .ab2:hover{
+            background: grey;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"], button {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="date"]{
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            width: 45%;
+        }
+
+        button {
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4cae4c;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        a {
+            text-decoration: none;
+            text-decoration: none;
+            font-family: arial;
+            color: white;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            bottom: 0;
+            width: 100%;
+        }
+        .test{
+            margin: 100px;
+        }
+        .khoi_xet_tuyen{
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+            width: 100%;
+        }
+        .ngaythang{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .nop{
+            margin-top: 30px;
+        }
+        .xoa{
+            margin-top: 30px;
+        }
+        .khunggiaovien{
+            border: 1px solid #ccc;
+        }
+        .cacnut{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        /* Phần Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            margin-top: 400px;
+        }

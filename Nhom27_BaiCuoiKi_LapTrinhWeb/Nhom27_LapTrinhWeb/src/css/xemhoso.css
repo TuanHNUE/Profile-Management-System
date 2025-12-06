@@ -1,0 +1,223 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-image: url('picture/anhnen2.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            padding: 0
+        } 
+        a{
+            text-decoration: none;
+            font-family: arial;
+            color: white;
+        }
+        /*đầu trang*/
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            margin-top: -50px;
+        }
+        .dautrang{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .tabinlogo{
+            width: 40%;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .tentruong{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+        .logo{
+            width: 50px;
+            height: 50px;
+        }
+        .space{
+            width: 35%;
+            height: 50px;
+        }
+        .trangchu{
+            width: 10%;
+            height: 50px;
+            font-size: 15px;
+        }
+        .nophoso{
+            width: 10%;
+            height: 50px;
+            font-size: 15px;
+        }
+        .lienhe{
+            width: 10%;
+            height: 50px;
+            font-size: 15px;
+        }
+        .tabbagach{
+            width: 5%;
+            height: 50px;
+            display: flex;
+            align-items: center;
+        }
+        .bagach{
+            width: 30px;
+            height: 30px;
+            border-radius: 10%;
+            position: relative;
+        }
+        .tabtrangchu:hover .trangchu{
+            color: yellow;
+            font-size: 20px;
+        }
+        .tabnophoso:hover .nophoso{
+            color: yellow;
+            font-size: 20px;
+        }
+        .tabxemhoso:hover .xemhoso{
+            color: yellow;
+            font-size: 20px;
+        }
+        .tabthongke:hover .thongke{
+            color: yellow;
+            font-size: 20px;
+        }
+
+
+        .ab1{
+            width: 130%;
+            height: 35px;
+            background: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .ab2{
+            width: 130%;
+            height: 35px;
+            background: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #fontchu{
+            font-size: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .tabmore{
+            width: 100%;
+            width: 60px;
+            display: none;
+            position: absolute;
+        }
+        .tabbagach:hover .tabmore{
+            display: block;
+        }
+        .ab1:hover{
+            background: grey;
+        }
+        .ab2:hover{
+            background: grey;
+        }
+        main {
+            margin-top: 50px;
+            padding: 50px;
+            margin-bottom: 65px;
+        }
+
+        .vien{
+            width: 500px;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            margin: 0 auto;
+        }
+
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+
+        th {
+            background: #007BFF;
+            color: white;
+        }
+
+        button {
+            background: #28a745; 
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background: #218838; 
+        }
+        .inputdiem{
+            width: 300px;
+        }
+        .doimauhoso {
+            background-color: #FFFF99;
+        }
+        .vien1{
+            background: #d5d5d5;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 75%;
+            padding: 20px;
+            margin: 30px auto;
+            border-radius: 10px;
+        }
+        .fileanh{
+            width: 200px;
+            height: 340px;
+        }
+        .taixuong{
+            display: flex;
+            justify-content: center;
+        }
+        .hocba{
+            display: flex;
+            justify-content: space-around;
+        }
+        .maunut{
+            background: grey;
+        }
+        /* Phần Footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            bottom: 0;
+            width: 100%;
+        }
